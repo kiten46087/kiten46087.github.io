@@ -1,0 +1,386 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  background-color: white;
+}
+
+
+.blog-post-title a {
+  color: #ff9966;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.blog-post-title a:hover {
+  text-shadow: 0 0 3px #ff9966;
+  color: transparent;
+}
+
+
+
+.blog-post {
+  padding-left: 0px;
+}
+
+
+.excerpt-date {
+  font-size: 15px;
+  color: #c2beb8;
+}
+
+#main-page {
+  margin-top: 20px;
+}
+
+
+/* The styles of the sidebar titles */
+.sidebar-container {
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
+}
+
+.sidebar-container .img-thumbnail {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  padding: 0px;
+}
+
+.sidebar-buttons {
+  padding-left: 0px;
+}
+
+.sidebar-title {
+  color: #ff9966;
+  font-size: 27px;
+  text-align: center;
+}
+
+.sidebar-title:hover {
+  filter: blur(2px);
+}
+
+
+
+/* The styles of the button inside sidebars */
+
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  color: #ff9966;
+  font-size: 18px;
+}
+
+li a:hover {
+  text-shadow: 0 0 2.7px #ff9966;
+  color: transparent;
+  text-decoration: none;
+}
+
+
+/* the styles of header */
+#nav > .header {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+#nav > .header > .header-title {
+  font-size: 45px;
+  line-height: 50px;
+  margin-left: 10px;
+  color: #ff9966;
+  transition: all .2s ease-in-out;
+}
+
+#nav > .header > .header-title:hover {
+  color: #ff9966;
+  text-decoration: none;
+  filter: blur(2px);
+  /* transform: scale(1.1); */
+}
+
+
+.icons {
+  text-align: right;
+}
+
+.fa {
+  font-size: 40px;
+  line-height: 20px;
+  color: #ff9966;
+  transition: all .2s ease-in-out;
+}
+
+.fa:hover {
+  font-size: 40px;
+  line-height: 20px;
+  color: #ff9966;
+  filter: blur(1.5px);
+  transform: scale(1.1);
+}
+
+#nav > .nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#nav > .nav-wrapper > .menu {
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu:first-child {
+  margin-left: 0;
+}
+
+#nav > .nav-menu .z-active {
+  position: relative;
+}
+
+#nav .nav-menu {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff9966;;
+  margin-right: 24px;
+}
+
+#nav .nav-icon {
+  margin-right: 15px;
+  margin-left: 25px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+
+/* The styles of the blog excerpt */
+.date {
+  color: #c2beb8;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.blog-excerpt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 80px 100px;
+  margin: 40px 0; */
+}
+
+.excerpt {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.blog-excerpt .excerpt-wrapper {
+  padding: 80px 100px;
+  margin: 40px 0;
+  background-color: #eff0f6;
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-excerpt > .excerpt-wrapper > .title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #ff9966;
+  transition: all .2s ease-in-out;
+}
+
+.blog-excerpt > .excerpt-wrapper > .title:hover {
+  text-decoration: none;
+  filter: blur(1.5px);
+  transform: scale(1.1);
+}
+
+.blog-excerpt > .image-wrapper {
+  max-height: auto;
+  float: left;
+
+  margin: 3px;
+  padding: 3px;
+
+  width: 320px;
+  height: 280px;
+  
+  margin-right: 10px;
+  margin-left: 10px;
+
+  background-color: #f2ebda;
+  /* box-shadow: 0 0 8px 8px #eff0f6 inset; */
+}
+
+.blog-excerpt > .image-wrapper > img {
+  width: 100%;
+  height: 100%;
+  margin: 12px;
+  transition: all .4s ease-in-out;
+}
+
+.blog-excerpt > .image-wrapper > img:hover {
+  width: 100%;
+  height: 100%;
+  margin: 12px;
+  filter: blur(2px);
+  transform: scale(1.05);
+}
+
+
+/* The styles of the post page */
+.article {
+  margin: 64px 0 80px;
+  padding: 80px 100px 0;
+  background-color: #f2ebda;
+  color: #333;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.article > .article-title {
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.article > .article-date {
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.article > .article-content {
+  padding-bottom: 60px;
+}
+
+.article > .hr-divide {
+  margin-top: 30px;
+}
+
+.article-content > .hr-divide {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.article-content > .article-footer > a {
+  margin-top: 13px;
+  color: #ff9966;
+  font-size: 20px;
+  transition: all .4s ease-in-out;
+}
+
+.article-content > .article-footer > a:hover {
+  text-decoration: none;
+  filter: blur(1.5px);
+  transform: scale(1.2);
+}
+
+/* The styles of the footer */
+.footer {
+  font-size: 15px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #ff9966;
+}
+
+.footer a {
+  color: #ff9966;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #ff9966;
+  text-decoration: none;
+  filter: blur(1.8px);
+}
+
+/* The styles of the pagination */
+.pager {
+  margin-left: 10px;
+  background-color: #eff0f6;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 20px; 
+  justify-content: space-between;
+}
+
+.pager li a {
+  font-size: 25px;
+}
+
+/* The styles of the Archives */
+.archive {
+  padding: 80px 160px;
+  background-color: #f2ebda;
+  margin: 64px 0 80px;
+}
+
+.archive-item {
+  margin-top: 10px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+
+.archive-item a {
+  color: #ff9966;
+}
+
+.archive-item a:hover {
+  color: #ff9966;
+  text-decoration: none;
+  filter: blur(1.5px);
+}
+
+.archive-item span {
+  opacity: 0.5;
+}
+
+
+/* The styles of about page */
+.about {
+  padding: 80px 160px;
+  background-color: #f2ebda;
+  margin: 64px 0 80px;
+}
+
+
+.highlight {
+  background-color: white;
+}
+
+.highlight .gutter {
+  display: none;
+}
+
+.highlight .line {
+  margin-left: 5px;
+}
